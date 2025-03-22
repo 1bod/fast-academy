@@ -187,7 +187,6 @@ if __name__ == "__main__":
     quiz_url = input("Entrez l'URL du quiz : ").strip()
     cookies = [
         {"name": "ci_session", "value": input("Entrez votre cookie ci_session : ").strip()},
-        {"name": "csrf_cookie_name", "value": input("Entrez votre cookie csrf_cookie_name : ").strip()},
     ]
 
     bot = QuizAutomation(quiz_url)
